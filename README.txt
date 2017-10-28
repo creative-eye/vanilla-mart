@@ -1,4 +1,6 @@
-﻿In order to run the app please do the following steps:
+﻿This is a vanilla js only project I wrote as part as a hiring process that I am really proud of. I have published it to github to highlight my vanilla js skills.
+
+In order to run the app please do the following steps:
 
 1. Install node.js using nvm on linux
 https://www.digitalocean.com/community/tutorials/how-to-install-node-js-with-nvm-node-version-manager-on-a-vps
