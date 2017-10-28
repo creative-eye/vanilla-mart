@@ -1,4 +1,4 @@
-﻿This is a vanilla js only project I wrote as part as a hiring process that I am really proud of. I have published it to github to highlight my vanilla js skills.
+﻿### This is a vanilla js only project I wrote as part as a hiring process that I am really proud of. I have published it to github to highlight my vanilla js skills.
 
 In order to run the app please do the following steps:
 
