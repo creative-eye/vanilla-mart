@@ -1,0 +1,15 @@
+.item-list {
+    padding: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+    .item-list-column {
+        margin-left: 2.5rem;
+        flex-direction: column;
+    }
+    
+    .price {
+        font-size: 4rem;
+    }
+}

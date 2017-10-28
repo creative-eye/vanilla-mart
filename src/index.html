@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Mart</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="app-container">
+    <div class="add-item-wrapper col-xs-4 cw-container">
+        <h3 class="title-h2">Add items</h3>
+        <form class="item-form row" action="" method="post" id="add-item-form" novalidate>
+            <div class="col-xs-12 form-group">
+                <input type="text" name="name" placeholder="Item Name" class="name form-input form-control is-required">
+            </div>
+            <div class="col-xs-12 form-group">
+                <input type="text" name="image" placeholder="Item URL" class="image form-input form-control is-required is-url">
+            </div>
+            <div class="col-xs-6 form-group">
+                <input type="number" name="discount" placeholder="Discount" class="discount form-input form-control is-required is-positive-number">
+            </div>
+            <div class="col-xs-6 form-group">
+                <input type="number" name="cost" placeholder="Item Cost" class="cost form-input form-control is-required is-positive-number has-value">
+            </div>
+            <div class="col-xs-6 form-group">
+                <input type="number" name="tax" placeholder="Sales Tax" class="sales-tax form-input form-control is-required is-positive-number">
+            </div>
+            <div class="col-xs-6 form-group">
+                <input type="number" name="shipping" placeholder="Shipping Cost" class="shipping form-input form-control is-required is-positive-number">
+            </div>
+
+            <div class="col-xs-12">
+                <button type="submit" name="button" class="btn btn-success col-xs-12">Add Item</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="primary col-xs-8 " id="added-items-wrapper">
+        <ul id="added-items-list"></ul>
+        <p class="col-xs-12 add-items-list-price"></p>
+        <div class="col-xs-12">
+            <button type="text" class="btn btn-success col-xs-12 added-item-list-primary-action">Proceed to checkout</button>
+        </div>
+    </div>
+
+
+</div>
+
+</body>
+</html>
